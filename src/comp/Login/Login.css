@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.Login-container{
+    height: 75vh;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.auth-card {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    perspective: 1000px;
+}
+
+.card-front,
+.card-back {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.auth-card.flipped .card-front {
+    transform: rotateY(180deg);
+}
+
+.auth-card.flipped .card-back {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn-main {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fed700;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-main2 {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #cd1e76;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.btn-main2 a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.form-footer a {
+    color: white;
+}
+
+.btn-main:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-main2:hover {
+    background-color: #fed700;
+    color: white;
+    border: none;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.form-footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.form-footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+
+    .card-front,
+    .card-back {
+        padding: 1rem;
+    }
+
+    .form-group input {
+        padding: 0.5rem;
+    }
+
+    .btn-main {
+        padding: 0.5rem;
+    }
+}

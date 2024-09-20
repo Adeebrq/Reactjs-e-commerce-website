@@ -17,7 +17,7 @@ const Footer = () =>{
                         </div>
                         <div className="details">
                             <h4>Great Savings!</h4>
-                            <p>random text to insert here haha haha haha</p>
+                            <p>Unlock unbeatable deals and enjoy Great Savings on every purchase today!</p>
                         </div>
                     </div>
                     <div className="box">
@@ -26,7 +26,7 @@ const Footer = () =>{
                         </div>
                         <div className="details">
                             <h4>24/7 delivery</h4>
-                            <p>random text to insert here haha haha haha</p>
+                            <p>Get what you need, anytime, anywhere with our 24/7 delivery service!</p>
                         </div>
                     </div>
                     <div className="box">
@@ -35,7 +35,7 @@ const Footer = () =>{
                         </div>
                         <div className="details">
                             <h4>24X7 support</h4>
-                            <p>random text to insert here haha haha haha</p>
+                            <p>Round-the-clock support, because we're here for you 24/7!"</p>
                         </div>
                     </div>
                     <div className="box">
@@ -44,14 +44,14 @@ const Footer = () =>{
                         </div>
                         <div className="details">
                             <h4>Money back guarantee</h4>
-                            <p>random text to insert here haha haha haha</p>
+                            <p>Shop with confidence – 100% Money Back Guarantee on every purchase!</p>
                         </div>
                     </div>
                 </div>
                 <div className="right_box">
                         <div className="header">
                             <img src="./image/logo.webp" alt="page logo"/>
-                            <p>lorem text etxt text hahammhahha</p>
+                            <p>At Techayo, we're dedicated to delivering the latest and most innovative tech products to our customers. Our commitment to quality, competitive pricing, and exceptional customer service ensures an unbeatable shopping experience. From gadgets to accessories, we have everything you need, backed by a satisfaction guarantee.</p>
                         </div>
                         <div className="bottom">
                             <div className="box">

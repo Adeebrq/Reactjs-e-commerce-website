@@ -40,11 +40,10 @@
     padding: 10px 10px;
     outline: none;
     background: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
     width: 250px;
     border: none;
     background: #f6f7f8;
+    border: 1px solid gray;
 }
 .header .mid_header .search_box button {
     padding: 10px 10px;
@@ -53,6 +52,7 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 50px;
+    height: 38px;
     cursor: pointer;
     background: #cd1e76;
     color: #ababab;
@@ -114,6 +114,7 @@
 }
 .header .last_header .nav{
     margin-top: 15px;
+    margin-left: 380px;
 }
 
 .header .last_header .nav ul{
@@ -148,3 +149,120 @@
     font-weight: 600;
     color: #232323;
  }
+
+
+ .user {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .user:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .icon2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #cd1e76;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .icon2 svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+  
+  .btn {
+    flex-grow: 1;
+  }
+  
+  .Login-btn {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .Login-btn:hover {
+    color: #cd1e76;
+  }
+  
+  @media (max-width: 768px) {
+    .user {
+      padding: 6px 12px;
+    }
+  
+    .icon2 {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .icon2 svg {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .Login-btn {
+      font-size: 14px;
+    }
+  }
+
+
+
+  .icon3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .icon3 svg {
+    width: 24px;
+    height: 24px;
+    color: #333;
+  }
+  
+  .info2 {
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+  
+  .info2 p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .icon3 {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+  
+    .icon3 svg {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .info2 p {
+      font-size: 14px;
+    }
+  }

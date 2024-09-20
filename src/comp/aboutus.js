@@ -7,7 +7,7 @@ const Aboutus = () => {
         <div className="aboutus">
             <div className="container">
                 <div className="image">
-                <img src="./image/aboutus.jpeg" alt="banner"></img>
+                <img src="./image/icons8-about-us.svg" alt="banner"></img>
                 </div>
                 <div className="info">
                     <h3>Welcome to Techayo!</h3>

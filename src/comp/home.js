@@ -117,7 +117,7 @@ const Home = ({addtocart}) => {
                                     <div className="info">
                                         <h3>Melina Smith</h3>
                                         <h4>Web Designer</h4>
-                                        <p>lorem posum texttxtxtxtx random text hey hello how is it going man hey hey hey</p>
+                                        <p>I had a fantastic experience shopping here! The website is easy to navigate, the tech products are top-notch, Customer service was very helpful. Highly recommend!</p>
                                     </div>
                                 </div>
                             </div>

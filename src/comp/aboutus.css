@@ -3,8 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-.aboutus .container{
-}
+
 .aboutus .container .image img {
     width: 100%;
     height: 60vh;
@@ -34,11 +33,11 @@
     margin-top: 30px;
 }
 .aboutus .container .info button {
+    text-decoration: none;
     display: flex;
     justify-items: center;
     padding: 10px 20px;
     margin-top: 20px;
-    text-decoration: none;
     text-transform: uppercase;
     color: #fed700;
     background-color: #cd1e76;
@@ -47,7 +46,9 @@
     transition: 0.5s;
     cursor: pointer;
     border-radius: 10px;
+    text-align: center; 
 }
+
 .aboutus .container .info button:hover{
     color: #cd1e76;
     background-color: #fed700;

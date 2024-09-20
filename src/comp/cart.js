@@ -16,15 +16,20 @@ const Cart =({cart, setCart})=> {
         }))
     }
     // DECREASE QTY
-    const decqty =(product)=>
-        {
-            const exist= cart.find((x)=>{
-                return x.id === product.id
-            })
-            setCart(cart.map((curElm)=>{
-                return curElm.id === product.id ? {...exist, qty:exist.qty-1} : curElm;
-            }))
-        }
+    // DECREASE QTY
+const decqty = (product) => {
+    const exist = cart.find((x) => x.id === product.id);
+    if (exist.qty === 1) {
+
+        setCart(cart.filter((curElm) => curElm.id !== product.id));
+    } else {
+
+        setCart(cart.map((curElm) => 
+            curElm.id === product.id ? { ...exist, qty: exist.qty - 1 } : curElm
+        ));
+    }
+}
+
     // FOR DELETING AN PRODUCT
     const removeprod =(product)=> 
         {
@@ -43,7 +48,6 @@ const Cart =({cart, setCart})=> {
     return(
         <>
         <div className="cart">
-            <h3>#Cart</h3>
                 {
                     cart.length === 0 &&
                     <>
